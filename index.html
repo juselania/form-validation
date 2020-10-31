@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation with HTML API</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <form action="">
+        <h2>
+          Challenge 100 days of code
+        </h2>
+    
+        <div class="input">
+          <input required type="text" />
+          <label>Nome</label>
+          <span class="error"></span>
+        </div>
+    
+    
+        <div class="input">
+          <input required type="email" />
+          <label>Email</label>
+          <span class="error"></span>
+        </div>
+    
+        <div class="input">
+          <input required type="link"/>
+          <label>LinkedIn</label>
+          <span class="error" ></span>
+        </div>
+
+        <div class="input">
+          <input required type="link" />
+          <label>GitHub</label>
+          <span class="error"></span>
+        </div>
+
+        <div class="input">
+          <label>Conte suas experiências durante os 100 day of code:</label>
+          <textarea
+                id="instructions"
+                name="instructions"
+                required
+              ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    
+      </form>
+
+</body>
+</html>
